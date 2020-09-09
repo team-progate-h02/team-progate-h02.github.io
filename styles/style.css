@@ -10,7 +10,7 @@ body {
     padding: 0;
     width: 100%;
     padding-top: 80px;
-    height: 1900px;
+    height: 2500px;
 }
 
 .container {
@@ -68,6 +68,7 @@ header {
     line-height: 80px;
     margin-right: 20px;
     transition: 0.5s ease;
+    color: #212529;
 }
 
 .navbar .nav .item .contact {
@@ -118,6 +119,7 @@ header {
     line-height: 45px;
     letter-spacing: -1px;
     font-size: 35px;
+    color: #212529;
 }
 
 .first-half p {
@@ -159,4 +161,104 @@ header {
     color: #21C7FF;
     font-weight: 600;
     text-decoration: none;
+}
+
+.favourite-spots {
+    margin-top: 600px;
+}
+
+.favourite-spots h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -0.01em;
+    color: #212529;
+}
+
+.favourite-spots p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #a1a1a1;
+    width: 60%;
+    margin: -30px auto;
+}
+
+.contents-item {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.contents-item img {
+    float: left;
+    width: 21%;
+    margin-left: 30px;
+}
+
+.main-content-2 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 90px;
+}
+
+.lihat {
+    margin-top: 20px;
+    color: #21c7ff;
+    float: left;
+    padding-left: 600px;
+}
+
+.email-section {
+    margin-top: 1000px;
+}
+
+.email-section .container .card {
+    background-color: #21C7FF;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card img {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+.email-illustrations {
+    width: 100%;
+}
+
+.email-section .container .card p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: -50px;
+}
+
+.email-section .container .card input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+}
+
+.email-section .container .card button {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.btn-subscribe {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid #21C7FF;
+    padding: 6px 25px 6px 25px;
+    border-radius: 40px;
+    color: #21C7FF;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
 }
